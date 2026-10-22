@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routes.chat_router import router as chat_router
+from travel_agent_api.routes.chat_router import router as chat_router
 
 app = FastAPI(
     title="Travel Agent API",
